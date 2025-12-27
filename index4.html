@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HawkStack's Approach</title>
+
+  <style>
+    body {
+      font-family: sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #ffffff; /* WHITE BACKGROUND */
+      color: #000; /* DARK TEXT */
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 50px auto;
+      text-align: center;
+      padding: 0 20px;
+    }
+
+    .title {
+      font-size: 28px;
+      font-weight: bold;
+      margin-bottom: 12px;
+      color: #000;
+    }
+    .title span {
+      color: #4e9bff; /* BLUE ACCENT */
+    }
+
+    .description {
+      font-size: 15px;
+      color: #444; /* DARK GREY */
+      margin-bottom: 40px;
+      line-height: 1.5;
+    }
+
+    .approaches {
+      display: flex;
+      justify-content: space-between;
+      gap: 22px;
+      flex-wrap: wrap;
+    }
+
+    .approach {
+      flex: 1;
+      min-width: 200px;
+      text-align: center;
+      background-color: #f7f7f7;
+      padding: 25px;
+      border-radius:20px;
+      border:1px solid rgba(255, 255, 255, 0.829);
+    }
+
+    .icon {
+      width: 48px;
+      height: 48px;
+      border-radius: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 0 auto 10px auto;
+    }
+
+    .icon.red { background-color: #ff4d4d; }
+    .icon.blue { background-color: #4e9bff; }
+    .icon.green { background-color: #2ecc71; }
+
+    .icon svg {
+      width: 24px;
+      height: 24px;
+      fill: #fff;
+    }
+
+    .approach-name {
+      font-size: 16px;
+      font-weight: bold;
+      margin-bottom: 6px;
+      color: #000;
+    }
+
+    .approach-desc {
+      font-size: 13px;
+      color: #555; /* MEDIUM GREY */
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+
+    <div class="title"><span>HawkStack</span>'s Approach</div>
+
+    <div class="description">
+      HawkStack Technologies accelerates digital evolution with DevOps, Cloud,
+      Automation, and Security expertise—driving innovation and faster time-to-market.
+    </div>
+
+    <div class="approaches">
+
+      <div class="approach">
+        <div class="icon red">
+          <svg viewBox="0 0 24 24">
+            <path d="M12 0l-1.712 5.244H5.244L12 10.488 18.756 5.244H13.288L12 0zM5.5 12a6.5 6.5 0 110 13 6.5 6.5 0 010-13z"/>
+          </svg>
+        </div>
+        <div class="approach-name">Logic's Framework</div>
+        <div class="approach-desc">Precision-engineered structures & analytics</div>
+      </div>
+
+      <div class="approach">
+        <div class="icon blue">
+          <svg viewBox="0 0 24 24">
+            <path d="M12 4v16c0 1.1-.9 2-2 2H6c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h4c1.1 0 2 .9 2 2z"/>
+          </svg>
+        </div>
+        <div class="approach-name">Innovation's Leap</div>
+        <div class="approach-desc">Data-driven, agile methodologies</div>
+      </div>
+
+      <div class="approach">
+        <div class="icon green">
+          <svg viewBox="0 0 24 24">
+            <path d="M12 3v18m0 0l6-6m-6 6l-6-6" stroke="#fff" stroke-width="2" fill="none"/>
+          </svg>
+        </div>
+        <div class="approach-name">Insight's Depth</div>
+        <div class="approach-desc">Predictive modeling & deep analytics</div>
+      </div>
+
+    </div>
+
+  </div>
+</body>
+</html>
